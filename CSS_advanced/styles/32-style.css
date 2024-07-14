@@ -294,9 +294,7 @@ ul.row {
 .button:hover {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--color-primary);
-    color: var(--button-hover-color);
-    transition: color var(--transition-duration) var(--transition-cubic-bezier),
-    background-color var(--transition-duration) var(--transition-cubic-bezier);
+    color: var(--button-hover-color); /
 }
 
 .section-hero {
@@ -344,12 +342,10 @@ ul.row {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
-    
 }
 
 .card-work .card-title {
@@ -391,13 +387,4 @@ ul.row {
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-}
-
-.card-work:hover .card-image {
-    transform: scale(1.2);
-    transition: var(--transition-duration) var(--transition-cubic-bezier); 
-}
-
-.card-work:hover .card-outer {
-    transform: scale(0.95);
 }
