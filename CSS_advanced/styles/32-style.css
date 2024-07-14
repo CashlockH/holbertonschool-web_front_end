@@ -294,7 +294,9 @@ ul.row {
 .button:hover {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--color-primary);
-    color: var(--button-hover-color); /
+    color: var(--button-hover-color);
+    transition: color var(--transition-duration) var(--transition-cubic-bezier),
+    background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .section-hero {
